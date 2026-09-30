@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monster Energy - Inicio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 15px 25px;
+    height: 160px; /* Aumentamos la altura del header para que quepa mejor */
+    border-bottom: 3px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+}
+
+.logo-pequeno {
+    width: auto;         /* Ancho automático según la imagen */
+    max-width: 180px;    /* Límite de ancho */
+    height: 130px;       /* Imagen más grande y alta */
+    object-fit: contain; /* Evita que la imagen se recorte o deforme */
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #00ff00;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.3);
+}
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 12px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #2a2a2a;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+        }
+
+        .boton-nav:hover {
+            background-color: #00ff00;
+            color: #000000;
+            box-shadow: 0 0 10px #00ff00;
+        }
+
+        .boton-nav.activo {
+            background-color: #00ff00;
+            color: #000000;
+            box-shadow: 0 0 12px rgba(0, 255, 0, 0.8);
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 25%;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #00ff00;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        aside h3 {
+            color: #00ff00;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        aside p {
+            line-height: 1.5;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        section {
+            width: 75%;
+            background-color: #1a1a1a;
+            padding: 25px;
+            border-radius: 8px;
+            border-right: 4px solid #00ff00;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        article h2 {
+            color: #00ff00;
+            margin-bottom: 15px;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        article p {
+            line-height: 1.6;
+            margin-bottom: 12px;
+            color: #ddd;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            border-top: 1px solid #333;
+            color: #888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Monster Energy</h1>
+            <nav class="barra-navegacion">
+                <a href="fran.html" class="boton-nav activo">Inicio</a>
+                <a href="fran2.html" class="boton-nav">Servicios</a>
+                <a href="fran3.html" class="boton-nav">Contacto</a>
+            </nav>
+        </div>
+        <img src="https://media.tenor.com/h3CFQzWaIk0AAAAM/monster-drink-monster.gif" alt="logo de mi sitio web" title="logo de la marca" class="logo-pequeno">
+    </header>
+
+    <main>
+       <aside>
+    <h3>UBER EAT</h3>
+    <p>¿Tenes hambre? Pide tu comida favorita a domicilio y recibe 30% de descuento en tu primer pedido.</p>
+    <div class="banner-anuncio">
+        <img src="https://media.tenor.com/hBkWcnbLTbUAAAAm/uber-eats-uber.webp" alt="Uber Eats" class="img-anuncio">
+    </div>
+</aside>
+        <section>
+            <article>
+                <h2>El Poder de Monster Energy</h2>
+                <p>Monster Energy no es solo una bebida energética, es un estilo de vida. Creada para atletas de deportes extremos, músicos y gamers de todo el mundo, nuestra fórmula te brinda la energía necesaria para superar cualquier desafío.</p>
+                <p>Descubre nuestra variedad de sabores, desde el clásico sabor original hasta las líneas Ultra sin azúcar y Juiced.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Monster Energy Co. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
